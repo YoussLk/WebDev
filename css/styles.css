@@ -16,10 +16,22 @@ p {
     /* background-color: rgb(168, 187, 157); */
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
-    background: scroll style-list: none;
+    justify-content: space-evenly;
+    background: scroll;
     margin-left: auto;
     padding: auto;
-    width: 50%;
+    width: 200px;
+    list-style:none;
+    /* background:red; */
+
+}
+.nav-list  a.nav-link{
+    border-radius: 70%;
+    color: rgb(26, 29, 22);
+    margin-left: 20px;
+}
+.nav-item {
+    background-color: greenyellow;
 }
 
 a:hover {
